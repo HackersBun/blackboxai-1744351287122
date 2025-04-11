@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - CSAS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        space: ['Space Grotesk', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-space font-bold text-2xl text-blue-600">CSAS</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                        <a href="services.html" class="text-blue-600 font-medium">Services</a>
+                        <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <section class="pt-24 pb-12 bg-gradient-to-br from-blue-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="font-space text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive cyber security solutions tailored to protect your business
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Red Teaming -->
+            <div class="mb-20">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <h2 class="font-space text-3xl font-bold mb-6">Red Teaming & Penetration Testing</h2>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Advanced penetration testing by OSEP certified professionals</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Comprehensive security assessments and vulnerability scanning</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Custom exploit development and security research</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Detailed reporting with actionable recommendations</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" alt="Red Teaming" class="rounded-lg shadow-xl w-full">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code & Binary Analysis -->
+            <div class="mb-20">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg" alt="Code Analysis" class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div>
+                        <h2 class="font-space text-3xl font-bold mb-6">Code & Binary Analysis</h2>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Deep source code security analysis</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Binary reverse engineering and vulnerability assessment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Secure code review and best practices implementation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Security-focused software development consultation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOC Services -->
+            <div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <h2 class="font-space text-3xl font-bold mb-6">SOC Services</h2>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>24/7 Security monitoring and threat detection</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Incident response and threat hunting</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Log analysis and security event management</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                                <span>Customized solutions for small-scale companies</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <img src="https://images.pexels.com/photos/1181216/pexels-photo-1181216.jpeg" alt="SOC Services" class="rounded-lg shadow-xl w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="font-space text-2xl font-bold mb-4">CSAS</h3>
+                    <p class="text-gray-400">Cyber Security as Service</p>
+                    <p class="text-gray-400 mt-2">Chennai, India</p>
+                </div>
+                <div>
+                    <h4 class="font-space font-bold mb-4">Quick Links</h4>
+                    <div class="grid grid-cols-2 gap-4">
+                        <a href="index.html" class="text-gray-400 hover:text-white">Home</a>
+                        <a href="services.html" class="text-gray-400 hover:text-white">Services</a>
+                        <a href="about.html" class="text-gray-400 hover:text-white">About</a>
+                        <a href="contact.html" class="text-gray-400 hover:text-white">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p class="text-gray-400">&copy; 2024 CSAS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
